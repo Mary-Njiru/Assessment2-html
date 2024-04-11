@@ -1,0 +1,130 @@
+.navbar {
+    display: inline;
+}
+.navbar p{
+    justify-content: space-between;
+}
+#nav-bar{
+   display: flex;
+   justify-content: space-between;
+
+ 
+}
+.btn-1{
+    background-color: rgb(114,183,177);
+    color: white;
+    width: 130px;
+    height: 4vh;
+    border-radius: 15px;
+    border: none;
+}
+#Landing-page{
+    display: flex;
+    justify-content: center;
+    gap: 7%;
+}
+.Image2{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.btn-2{
+    background-color: rgb(114,183,177);
+    color: white;
+    width: 130px;
+    height: 4vh;
+    border-radius: 15px; 
+    border: none; 
+}
+h1{
+    font-size: 50px;
+}
+#part-1{
+    display: flex;
+    gap: 7%;
+}
+#part-2{
+    display: flex;
+    gap: 10%;
+}
+.Image4{
+    width: 100px;
+    height: 50px;
+}
+#Companies-logo{
+    gap: 10%;
+}
+#Bottom-page{
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(227,240,239);;
+}
+
+@media screen and (max-width:480px){
+    .navbar {
+        display: inline;
+    }
+    .navbar p{
+        justify-content: space-between;
+    }
+    #nav-bar{
+       display: flex;
+       justify-content: space-between;
+       flex-direction: column;
+     
+    }
+    .btn-1{
+        background-color: rgb(114,183,177);
+        color: white;
+        width: 100px;
+        height: 2vh;
+        border-radius: 15px;
+        border: none;
+    }
+    #Landing-page{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 7%;
+    }
+    .Image2{
+        height: 250px;
+        width: 250px;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+    .btn-2{
+        background-color: rgb(114,183,177);
+        color: white;
+        width: 130px;
+        height: 4vh;
+        border-radius: 15px; 
+        border: none; 
+    }
+    h1{
+        font-size: 30px;
+    }
+    #part-1{
+        display: flex;
+        gap: 7%;
+    }
+    #part-2{
+        display: flex;
+        gap: 10%;
+    }
+    .Image4{
+        width: 30px;
+        height: 30px;
+    }
+    #Companies-logo{
+        flex-direction: column;
+    }
+    p{
+        font-size: 5px;
+    }
+    #Bottom-page{
+        background-color: rgb(227,240,239);;
+        flex-direction: column;
+    }  
+}
